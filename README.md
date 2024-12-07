@@ -13,6 +13,13 @@ This repository includes configurations for:
 - [ ] **Vim**: Traditional Vim editor configuration
 - [ ] **Tmux**: Terminal multiplexer configuration
 
+## Prerequisites
+
+Before installing these configurations, ensure you have the following tools installed:
+
+- Homebrew
+- Git
+
 ## Installation
 
 **⚠️ Important**: These are my personal configuration files. While you're welcome to use them, please review the code before installing anything. I strongly recommend copying only the parts you understand and need rather than blindly using the entire configuration.
