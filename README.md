@@ -19,11 +19,11 @@ This repository includes configurations for:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/workspace.git ~/.workspace
+git clone https://github.com/mrouabehi/workspace.git ~/.dotfiles
 
 # Create symbolic links (example)
-ln -s ~/.workspace/zsh/.zshrc ~/.zshrc
-ln -s ~/.workspace/nvim ~/.config/nvim
+ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/nvim ~/.config/nvim
 # ... add more symlinks as needed
 ```
 
@@ -43,4 +43,3 @@ While this is primarily my personal configuration, I'm open to suggestions and i
 
 1. Open an issue to discuss potential changes
 2. Share your thoughts on alternative approaches
-
