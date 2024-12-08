@@ -10,7 +10,7 @@ This repository includes configurations for:
 - [ ] **Neovim**: Modern Vim-based text editor setup with plugins
 - [ ] **Git**: Global Git configuration and aliases
 - [ ] **Homebrew**: Bundle file with my essential packages
-- [ ] **Vim**: Traditional Vim editor configuration
+- [X] **Vim**: Traditional Vim editor configuration
 - [ ] **Tmux**: Terminal multiplexer configuration
 
 ## Prerequisites
@@ -28,10 +28,8 @@ Before installing these configurations, ensure you have the following tools inst
 # Clone the repository
 git clone https://github.com/mrouabehi/workspace.git ~/.dotfiles
 
-# Create symbolic links (example)
-ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
-ln -s ~/.dotfiles/nvim ~/.config/nvim
-# ... add more symlinks as needed
+# Create symbolic links (as needed)
+ln -sfFh "$PWD/vim/vimrc" "$HOME/.vimrc"
 ```
 
 ## Disclaimer

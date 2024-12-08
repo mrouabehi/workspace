@@ -1,0 +1,104 @@
+" ============================================================================ "
+" File: .vimrc                                                                 "
+" Author: mrouabehi <contact@mrouabehi.me>                                     "
+"                                                                              "
+" Sections                                                                     "
+"     - General                                                                "
+"     - File Management                                                        "
+"     - UI Configuration                                                       "
+"     - Editor Behavior                                                        "
+"     - Window and Buffer Management                                           "
+" ============================================================================ "
+
+
+" ============================================================================ "
+"                                General                                       "
+" ============================================================================ "
+set autowrite
+set clipboard=unnamed
+set confirm
+set showmode
+set showcmd
+set virtualedit=onemore
+set history=500
+set timeout
+set timeoutlen=300
+set ttimeoutlen=10
+set updatetime=200
+set backspace=indent,eol,start
+set encoding=utf8
+let mapleader = " "
+
+" ============================================================================ "
+"                            File Management                                   "
+" ============================================================================ "
+set nobackup
+set noswapfile
+set undofile
+set undolevels=500
+set undodir=~/.cache/vim/undodir
+set nowritebackup
+set autoread
+set hidden
+
+filetype on
+filetype indent on
+filetype plugin on
+
+" ============================================================================ " 
+"                             UI Configuration                                 "
+" ============================================================================ "
+syntax on
+colorscheme desert                  " need to change this ugly colorscheme later 
+set number
+set relativenumber
+set cursorline
+set colorcolumn=81,121
+set termguicolors
+set noruler
+set showmatch
+set foldcolumn=1
+set foldlevel=99
+set foldenable
+set signcolumn=yes
+set laststatus=3
+set scrolloff=8
+set sidescrolloff=8
+set cmdheight=1
+set pumheight=10
+
+
+" ============================================================================ " 
+"                              Editor Behavior                                 "
+" ============================================================================ "
+" Indentation
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+set smartindent
+set autoindent
+set smarttab
+set breakindent
+set linebreak
+set showbreak=+++
+set textwidth=120
+
+" Search
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+nnoremap <CR> :noh<CR><CR>:<backspace>
+
+" ============================================================================ " 
+"                              Window and Buffer                               "
+" ============================================================================ "
+set splitright
+set splitbelow
+set switchbuf="usetab"
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+
