@@ -26,10 +26,10 @@ Before installing these configurations, ensure you have the following tools inst
 
 ```bash
 # Clone the repository
-git clone https://github.com/mrouabehi/workspace.git ~/.dotfiles
+$ git clone https://github.com/mrouabehi/workspace.git ~/.dotfiles
 
-# Create symbolic links (as needed)
-ln -sfFh "$PWD/vim/vimrc" "$HOME/.vimrc"
+# Run setup scripts
+$ ./scripts/setup.sh
 ```
 
 ## Disclaimer
