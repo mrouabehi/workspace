@@ -9,3 +9,4 @@ ln -sfFh "$PWD/vim/vimrc" "$HOME/.vimrc"
 
 # Git
 ln -sfFh "$PWD/git/gitignore" "$HOME/.gitignore"
+ln -sfFh "$PWD/git/gitconfig" "$HOME/.gitconfig"
