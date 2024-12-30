@@ -9,6 +9,9 @@
     editor = vim
     excludeFiles = ~/.gitignore
 
+[status]
+    short = true
+
 [alias]
     st = status
     ci = commit
