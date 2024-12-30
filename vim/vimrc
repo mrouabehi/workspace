@@ -28,6 +28,8 @@ set updatetime=200
 set backspace=indent,eol,start
 set encoding=utf8
 let mapleader = " "
+set laststatus=2
+set statusline=%f\ %y\ %m\ %r\ %=Line:\ %l\ Column:\ %c
 
 " ============================================================================ "
 "                            File Management                                   "
