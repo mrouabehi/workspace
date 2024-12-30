@@ -6,3 +6,6 @@ fi
 
 # Vimrc
 ln -sfFh "$PWD/vim/vimrc" "$HOME/.vimrc"
+
+# Git
+ln -sfFh "$PWD/git/gitignore" "$HOME/.gitignore"
