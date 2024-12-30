@@ -12,6 +12,11 @@
 [status]
     short = true
 
+[merge]
+    conflictStyle = zdiff3
+    log = true
+    ff = false
+
 [color]
     ui = auto
     interactive = auto
