@@ -1,3 +1,7 @@
+[user]
+    email = contact@mrouabehi.me
+    name = mrouabehi
+
 [init]
     defaultBranch = main
 
