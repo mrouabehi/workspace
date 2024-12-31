@@ -11,3 +11,10 @@ theme = Kanagawa Wave
 cursor-style = block
 cursor-style-blink = true
 adjust-cell-height = 20%
+
+# Window
+window-decoration = true
+window-padding-balance = true
+window-padding-x = 10,10
+window-padding-y = 10,10
+window-colorspace = "display-p3"
