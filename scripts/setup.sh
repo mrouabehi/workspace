@@ -10,3 +10,10 @@ ln -sfFh "$PWD/vim/vimrc" "$HOME/.vimrc"
 # Git
 ln -sfFh "$PWD/git/gitignore" "$HOME/.gitignore"
 ln -sfFh "$PWD/git/gitconfig" "$HOME/.gitconfig"
+
+# Ghostty
+if [ ! -d "$HOME/.config/ghostty" ]; then
+    mkdir -pv "$HOME/.config/ghostty"
+fi
+
+ln -sfFh "$PWD/ghostty/config" "$HOME/.config/ghostty/config"
