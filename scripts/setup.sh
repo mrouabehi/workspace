@@ -17,3 +17,7 @@ if [ ! -d "$HOME/.config/ghostty" ]; then
 fi
 
 ln -sfFh "$PWD/ghostty/config" "$HOME/.config/ghostty/config"
+
+# Psql
+ln -sfFh "$PWD/psql/psqlrc" "$HOME/.psqlrc"
+mkdir -p "$HOME/.psql/history"
