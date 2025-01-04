@@ -21,3 +21,6 @@ ln -sfFh "$PWD/ghostty/config" "$HOME/.config/ghostty/config"
 # Psql
 ln -sfFh "$PWD/psql/psqlrc" "$HOME/.psqlrc"
 mkdir -p "$HOME/.psql/history"
+
+# Nvim
+ln -sfFh "$PWD/nvim" "$HOME/.config/nvim"
