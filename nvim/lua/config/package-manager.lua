@@ -19,6 +19,7 @@ require('lazy').setup({
     spec = {
         { import = 'config.ui' },
         { import = 'config.editor' },
+        { import = 'config.navigation' },
     },
     defaults = {
         lazy = false,
