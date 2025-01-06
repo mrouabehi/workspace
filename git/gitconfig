@@ -1,6 +1,7 @@
 [user]
     email = contact@mrouabehi.me
-    name = mrouabehi
+    name = Mohamed-Younès Rouabehi
+    username = mrouabehi
 
 [init]
     defaultBranch = main
@@ -8,6 +9,7 @@
 [core]
     editor = nvim
     excludeFiles = ~/.gitignore
+    pager = bat
 
 [status]
     short = true
@@ -24,6 +26,7 @@
     diff = auto
     branch = auto
     grep = auto
+    pager = yes
 
 [alias]
     st = status
